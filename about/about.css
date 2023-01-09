@@ -1,0 +1,244 @@
+nav{
+    background-color: #1e2028;
+}
+nav a{
+    color: aliceblue;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1em;
+}
+#nav_ul{
+    margin-left: 10rem;
+}
+#b_nav{
+    margin-right: 2rem;
+}
+nav a:hover{
+    border-top: solid rgb(0, 187, 255);
+    border-bottom: solid rgb(0, 187, 255);
+
+    color: rgb(0, 187, 255);
+    
+}
+#logo{
+    font-size: 30PX;
+    margin-left: 50px; 
+    text-shadow: 0 3px #fff;
+}
+
+#active{
+    border-top: solid rgb(0, 187, 255);
+    border-bottom: solid rgb(0, 187, 255);
+
+    color: rgb(0, 187, 255);
+}
+/* main{
+    background-color: #1e2028;
+} */
+
+/* ****************8 */
+.debut{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.debut h1{
+    font-size: 2.5rem;
+    width: 40%;
+    text-align: center;
+    color: #1e2028;
+    margin-bottom: 2rem;
+}
+.debut p{
+    font-size: 1.5rem;
+    width: 60%;
+    text-align: center;
+    color: #1e2028;
+    margin-bottom: 0.3rem;
+}
+
+
+
+/*  */
+#tafasil{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#tf{
+    display: grid; 
+    grid-template-columns: 1fr 1fr ;
+}
+#tf1{
+    margin: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+    overflow: hidden;
+    box-shadow: 0 0 10px black;
+    /* background-color: aqua; */
+}
+#tf1  a{
+   font-size: 6rem;
+   text-decoration: none;
+   color: #1e2028;
+}
+#tf :hover {
+    color: #fff;
+    background-color: rgb(0, 187, 255);
+ }
+/* footer */
+footer{
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+   background-color: #1e2028;
+ 
+}
+footer h3{
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+footer p{
+    color: #fff;
+    font-size: 1rem;
+    margin:  1rem 0;
+}
+.fo1{
+    overflow: hidden;
+    margin:  5rem 0;
+
+}
+.footer{
+    display: grid; 
+    grid-template-columns: 2fr  2fr;
+    margin-left: 4rem;
+}
+#icon a{
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 1rem 2rem;
+    color: #fff;
+    cursor: pointer;
+}
+#icon a:hover{
+    color: rgb(0, 187, 255);
+}
+footer hr{
+    color: rgb(0, 187, 255);
+    width: 80%;
+}
+
+
+
+
+
+
+
+/*  
+*/
+
+@media screen and (max-width:1023px){
+    #logo{
+        font-size: 20px;
+        margin-left: 3rem; 
+        text-shadow: 0 2px #fff;
+    }
+    
+    .footer{
+        display: grid; 
+        grid-template-columns:  1.5fr 1.5fr;
+        margin-left: 6rem;
+    } 
+    nav a{
+        font-size: 10px;
+    }
+    #nav_ul{
+        margin-left: 10px;
+    }
+    #nav_ul li{
+        margin-left: 0px;
+    }
+    .debut{
+        margin-top: 6rem;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .debut h1{
+        font-size: 1.5rem;
+    }
+    .debut p{
+        font-size: 1rem;
+    }
+ 
+}
+
+
+
+/* 767px)_______________________- */
+@media screen and (max-width:767px) {
+    footer{
+        margin-top: 1rem;
+        }
+        footer h3{
+            color: #fff;
+            font-size: 0.9rem;
+            margin-left: 0.3rem;
+            margin-bottom: 1rem;
+    }
+        footer p{
+            font-size: 0.9rem;
+            margin:  0.3rem 0.3rem;
+        }
+        #tf{
+            display: grid; 
+            grid-template-columns: 1fr  ;
+        }
+    .fo1{
+        overflow: hidden;
+        margin:  1rem 0;
+    
+    }
+    .footer{
+        display: grid; 
+        grid-template-columns: 2fr 2fr;
+        margin-left: 1rem;
+    }
+    #nav_ul li{
+        margin-top: 15px;
+    }
+    #logo{
+        margin-left: 2rem;
+    }
+    .debut h1{
+        font-size: 1.3rem;
+    }
+    .debut p{
+        font-size: 0.8rem;
+    }
+    .debut{
+        margin-top: 1rem;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    #icon a{
+        font-size: 1.3rem;
+        margin: 0.4rem 0.5rem 3rem 0.5rem ;
+        cursor: pointer;
+
+    }
+
+}
